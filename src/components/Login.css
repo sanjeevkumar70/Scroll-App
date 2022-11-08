@@ -1,0 +1,27 @@
+.form-box{
+    width: 40%;
+    height: 40vh;
+    margin: auto;
+    padding: 50px 0;
+    border-radius: 10px;
+    background-color: rgb(200, 178, 243);
+    
+}
+button{
+    padding: 3px 40px;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: 700;
+    background-color: palevioletred;
+}
+@media only screen and (max-width:768px) {
+    .form-box{
+        width: 65%;
+    }
+  }
+  @media only screen and (max-width:378px) {
+    .form-box{
+        width: 100%;
+    }
+  }
