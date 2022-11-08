@@ -8,7 +8,7 @@ function Home() {
   const [user, setUser] = useState([]);
 
   useEffect(() => {
-    fetch("https://randomuser.me/api/?results=100")
+    fetch("https://randomuser.me/api/?results=500")
       .then((response) => {
         return response.json();
       })
